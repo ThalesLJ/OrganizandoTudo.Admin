@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Inova\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj": {}
+    "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj": {}
   },
   "projects": {
-    "C:\\Inova\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj": {
+    "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Inova\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj",
+        "projectUniqueName": "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj",
         "projectName": "OrganizandoTudo.Admin",
-        "projectPath": "C:\\Inova\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj",
+        "projectPath": "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj",
         "packagesPath": "C:\\Users\\thale\\.nuget\\packages\\",
-        "outputPath": "C:\\Inova\\Projetos\\OrganizandoTudo.Admin\\obj\\",
+        "outputPath": "C:\\Projetos\\OrganizandoTudo.Admin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

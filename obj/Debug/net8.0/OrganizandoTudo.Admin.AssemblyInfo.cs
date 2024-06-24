@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrganizandoTudo.Admin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74761896e5dc97aa62415a222f201aa696e7af75")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrganizandoTudo.Admin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrganizandoTudo.Admin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

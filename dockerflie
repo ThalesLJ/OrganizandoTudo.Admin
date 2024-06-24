@@ -1,0 +1,29 @@
+# Use uma imagem oficial do .NET 8 SDK como a imagem base para compilar a aplicação
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+
+# Defina o diretório de trabalho dentro do contêiner
+WORKDIR /app
+
+# Copie o arquivo de projeto para o contêiner
+COPY *.csproj ./
+
+# Restaure as dependências do projeto
+RUN dotnet restore
+
+# Copie todos os arquivos do projeto para o diretório de trabalho no contêiner
+COPY . .
+
+# Compile o projeto
+RUN dotnet publish -c Release -o out
+
+# Use uma imagem runtime do .NET 8 para executar a aplicação
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+
+# Defina o diretório de trabalho dentro do contêiner
+WORKDIR /app
+
+# Copie os arquivos compilados do estágio anterior
+COPY --from=build /app/out .
+
+# Defina o comando de entrada para o contêiner
+ENTRYPOINT ["dotnet", "MyDotNetApp.dll"]
