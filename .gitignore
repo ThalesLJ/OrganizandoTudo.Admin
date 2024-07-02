@@ -1,0 +1,59 @@
+# .NET Core
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.exe.config
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.ide
+*.sln.docstates
+*.sln.user
+
+# Rider files
+.idea/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.suo
+*.userprefs
+*.vscode/
+*.dotCover
+*.resharper
+*.resharper.user
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# macOS
+.DS_Store
+
+# Linux
+*.so
