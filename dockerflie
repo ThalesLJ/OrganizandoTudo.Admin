@@ -1,29 +1,19 @@
-# Use uma imagem oficial do .NET 8 SDK como a imagem base para compilar a aplicação
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-
-# Defina o diretório de trabalho dentro do contêiner
+# Use a imagem base do SDK do .NET para build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
-# Copie o arquivo de projeto para o contêiner
+# Copia o arquivo .csproj e restaura as dependências
 COPY *.csproj ./
-
-# Restaure as dependências do projeto
 RUN dotnet restore
 
-# Copie todos os arquivos do projeto para o diretório de trabalho no contêiner
-COPY . .
-
-# Compile o projeto
+# Copia o restante dos arquivos e builda a aplicação
+COPY . ./
 RUN dotnet publish -c Release -o out
 
-# Use uma imagem runtime do .NET 8 para executar a aplicação
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
-
-# Defina o diretório de trabalho dentro do contêiner
+# Use a imagem runtime do .NET para rodar a aplicação
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
+COPY --from=build-env /app/out .
 
-# Copie os arquivos compilados do estágio anterior
-COPY --from=build /app/out .
-
-# Defina o comando de entrada para o contêiner
-ENTRYPOINT ["dotnet", "MyDotNetApp.dll"]
+# Define o entrypoint para o Kestrel
+ENTRYPOINT ["dotnet", "OrganizandoTudo.Admin.dll"]
