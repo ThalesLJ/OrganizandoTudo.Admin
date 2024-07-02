@@ -15,5 +15,12 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build-env /app/out .
 
+# Define a variable for the port
+ARG PORT=5000
+ENV ASPNETCORE_URLS=http://0.0.0.0:${PORT}
+
+# Expose the port
+EXPOSE ${PORT}
+
 # Define o entrypoint para o Kestrel
 ENTRYPOINT ["dotnet", "OrganizandoTudo.Admin.dll"]
