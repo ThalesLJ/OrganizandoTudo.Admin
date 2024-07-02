@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: admin.organizandotudo
 
     steps:
     - name: Checkout code
