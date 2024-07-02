@@ -1,3 +1,8 @@
+# Expondo a porta 8080 para o host
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 8080 
+
 # Use a imagem base do SDK do .NET para build
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app

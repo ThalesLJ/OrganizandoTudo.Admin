@@ -45,4 +45,4 @@ jobs:
           docker pull ljthales/adminorganizandotudo:latest
           docker stop adminorganizandotudo || true
           docker rm adminorganizandotudo || true
-          docker run -d -p 80:80 --name adminorganizandotudo ljthales/adminorganizandotudo:latest
+          docker run -d -p 8080:8080 --name adminorganizandotudo ljthales/adminorganizandotudo:latest
