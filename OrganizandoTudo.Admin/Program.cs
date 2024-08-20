@@ -15,7 +15,7 @@ namespace OrganizandoTudo.Admin
             var app = builder.Build();
 
             // Configurando a porta de escuta
-            app.Urls.Add("http://localhost:5555");
+            app.Urls.Add("http://localhost:5000");
 
             // Configurando o middleware do pipeline
             if (app.Environment.IsDevelopment())

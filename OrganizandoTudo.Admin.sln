@@ -9,9 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens
 	ProjectSection(SolutionItems) = preProject
 		.dockerignore = .dockerignore
 		.gitignore = .gitignore
+		.github\workflows\deploy.yml = .github\workflows\deploy.yml
 		Dockerfile = Dockerfile
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizandoTudo.Instalador", "OrganizandoTudo.Instalador\OrganizandoTudo.Instalador.csproj", "{9004C50C-0687-496D-B725-F1996ACD3844}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +26,10 @@ Global
 		{F513FCF4-3136-4997-A671-4903D5A512EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F513FCF4-3136-4997-A671-4903D5A512EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F513FCF4-3136-4997-A671-4903D5A512EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9004C50C-0687-496D-B725-F1996ACD3844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9004C50C-0687-496D-B725-F1996ACD3844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9004C50C-0687-496D-B725-F1996ACD3844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9004C50C-0687-496D-B725-F1996ACD3844}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

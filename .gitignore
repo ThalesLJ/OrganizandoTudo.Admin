@@ -15,6 +15,7 @@ Generated\ Files/
 .vscode/
 *.sln.ide
 .idea/
+*.json
 
 # Log files
 *.log
