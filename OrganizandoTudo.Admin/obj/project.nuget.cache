@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VstnNn0pE+U=",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thale\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
