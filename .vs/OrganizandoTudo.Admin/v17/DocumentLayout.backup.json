@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Projetos\\OrganizandoTudo.Admin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EB735316-327C-4B37-B50B-683A575680F4}|Itens de Solu\u00E7\u00E3o{EB735316-327C-4B37-B50B-683A575680F4}|C:\\Projetos\\OrganizandoTudo.Admin\\.github\\workflows\\deploy.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EB735316-327C-4B37-B50B-683A575680F4}|Itens de Solu\u00E7\u00E3o{EB735316-327C-4B37-B50B-683A575680F4}|solutionrelative:.github\\workflows\\deploy.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB735316-327C-4B37-B50B-683A575680F4}|Itens de Solu\u00E7\u00E3o{EB735316-327C-4B37-B50B-683A575680F4}|C:\\Projetos\\OrganizandoTudo.Admin\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EB735316-327C-4B37-B50B-683A575680F4}|Itens de Solu\u00E7\u00E3o{EB735316-327C-4B37-B50B-683A575680F4}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F513FCF4-3136-4997-A671-4903D5A512EB}|OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj|c:\\projetos\\organizandotudo.admin\\organizandotudo.admin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F513FCF4-3136-4997-A671-4903D5A512EB}|OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj|solutionrelative:organizandotudo.admin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F513FCF4-3136-4997-A671-4903D5A512EB}|OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj|c:\\projetos\\organizandotudo.admin\\organizandotudo.admin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F513FCF4-3136-4997-A671-4903D5A512EB}|OrganizandoTudo.Admin\\OrganizandoTudo.Admin.csproj|solutionrelative:organizandotudo.admin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9004C50C-0687-496D-B725-F1996ACD3844}|OrganizandoTudo.Instalador\\OrganizandoTudo.Instalador.csproj|c:\\projetos\\organizandotudo.admin\\organizandotudo.instalador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9004C50C-0687-496D-B725-F1996ACD3844}|OrganizandoTudo.Instalador\\OrganizandoTudo.Instalador.csproj|solutionrelative:organizandotudo.instalador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +38,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin\\Program.cs",
+              "RelativeDocumentMoniker": "OrganizandoTudo.Admin\\Program.cs",
+              "ToolTip": "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin\\Program.cs",
+              "RelativeToolTip": "OrganizandoTudo.Admin\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:34:32.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin\\appsettings.json",
+              "RelativeDocumentMoniker": "OrganizandoTudo.Admin\\appsettings.json",
+              "ToolTip": "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Admin\\appsettings.json",
+              "RelativeToolTip": "OrganizandoTudo.Admin\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-20T02:34:25.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "deploy.yml",
+              "DocumentMoniker": "C:\\Projetos\\OrganizandoTudo.Admin\\.github\\workflows\\deploy.yml",
+              "RelativeDocumentMoniker": ".github\\workflows\\deploy.yml",
+              "ToolTip": "C:\\Projetos\\OrganizandoTudo.Admin\\.github\\workflows\\deploy.yml",
+              "RelativeToolTip": ".github\\workflows\\deploy.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-08-20T02:31:33.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projetos\\OrganizandoTudo.Admin\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Projetos\\OrganizandoTudo.Admin\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-20T02:17:42.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Instalador\\Program.cs",
               "RelativeDocumentMoniker": "OrganizandoTudo.Instalador\\Program.cs",
               "ToolTip": "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Instalador\\Program.cs",
               "RelativeToolTip": "OrganizandoTudo.Instalador\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAIMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T01:59:40.519Z",
               "EditorCaption": ""
