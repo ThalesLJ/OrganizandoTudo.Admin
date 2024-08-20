@@ -1,4 +1,4 @@
-# Gerenciamento de Notas - Admin Panel
+# Gerenciamento de Notas - Painel Admin
 
 ## Visão Geral
 
