@@ -16,6 +16,7 @@ Generated\ Files/
 *.sln.ide
 .idea/
 *.json
+.vs/*
 
 # Log files
 *.log
