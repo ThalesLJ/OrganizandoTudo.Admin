@@ -35,12 +35,9 @@ O projeto conta com diversas funcionalidades principais:
 
 ### Configuração do Ambiente
 
-O painel administrativo não está hospedado online por questões de segurança. No entanto, você pode instalar e rodar o projeto localmente utilizando Docker.
+O painel administrativo não está hospedado online por questões de segurança. No entanto, você pode instalar e rodar o projeto localmente utilizando Docker apenas em Windows.
 
-1. Faça o pull da imagem Docker e execute diretamente do Docker Hub:
+1. Acesse o link abaixo e faça download da versão mais recente:
    ```bash
-   docker run -d -p 5555:5000 thaleslj/organizandotudo.admin
-
-2. O ambiente admin estará disponível em:
-   ```bash
-   http://localhost:5555
+   [https://github.com/ThalesLJ/OrganizandoTudo.Admin/releases/tag/Windows](https://github.com/ThalesLJ/OrganizandoTudo.Admin/releases/tag/Windows)
+   
