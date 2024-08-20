@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projetos\\OrganizandoTudo.Admin\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9004C50C-0687-496D-B725-F1996ACD3844}|OrganizandoTudo.Instalador\\OrganizandoTudo.Instalador.csproj|c:\\projetos\\organizandotudo.admin\\organizandotudo.instalador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9004C50C-0687-496D-B725-F1996ACD3844}|OrganizandoTudo.Instalador\\OrganizandoTudo.Instalador.csproj|solutionrelative:organizandotudo.instalador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Instalador\\Program.cs",
+              "RelativeDocumentMoniker": "OrganizandoTudo.Instalador\\Program.cs",
+              "ToolTip": "C:\\Projetos\\OrganizandoTudo.Admin\\OrganizandoTudo.Instalador\\Program.cs",
+              "RelativeToolTip": "OrganizandoTudo.Instalador\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAIMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T01:59:40.519Z",
+              "EditorCaption": ""
             }
           ]
         }

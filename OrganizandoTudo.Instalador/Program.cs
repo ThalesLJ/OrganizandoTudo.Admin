@@ -120,7 +120,7 @@ namespace OrganizandoTudo.Instalador
                     StartInfo = new ProcessStartInfo
                     {
                         FileName = "docker",
-                        Arguments = $"run -d -p 5555:5555 --name Organizando.Tudo.Admin {imageName}",
+                        Arguments = $"run -d -p 5555:5000 --name Organizando.Tudo.Admin {imageName}",
                         RedirectStandardOutput = true,
                         UseShellExecute = false,
                         CreateNoWindow = true,
