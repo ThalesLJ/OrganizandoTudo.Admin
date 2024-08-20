@@ -38,6 +38,6 @@ O projeto conta com diversas funcionalidades principais:
 O painel administrativo não está hospedado online por questões de segurança. No entanto, você pode instalar e rodar o projeto localmente utilizando Docker apenas em Windows.
 
 1. Acesse o link abaixo e faça download da versão mais recente:
-   ```bash
-   [https://github.com/ThalesLJ/OrganizandoTudo.Admin/releases/tag/Windows](https://github.com/ThalesLJ/OrganizandoTudo.Admin/releases/tag/Windows)
+
+https://github.com/ThalesLJ/OrganizandoTudo.Admin/releases/tag/Windows
    
